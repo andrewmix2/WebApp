@@ -1,10 +1,28 @@
 ﻿pipeline {
     agent any
+
     stages {
-        stage('Build') {
-            steps {
-                echo 'Inicinado a pipeline'
+
+        stage('STAGE 00'){
+
+            steps{
+
+                echo "Pipeline Usando Jenkinsfile"
+
             }
+
         }
+
+        stage('STAGE 01'){
+
+            steps{
+
+                echo "Pipeline Usando Jenkinsfile"
+
+            }
+
+        }
+
     }
+
 }
