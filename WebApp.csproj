@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Jenkinsfile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Jenkinsfile" />
+  </ItemGroup>
+
 </Project>
